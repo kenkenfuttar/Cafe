@@ -3,3 +3,59 @@ ul{
   column-gap: 20px;
   list-style-type: none;
 }
+
+.siteHeader_logo a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+.siteHeader_logo {
+  z-index: 999;
+  position: fixed;
+  display: inline-block;
+  height: auto;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.5em;
+  white-space: inherit;
+}
+
+.siteHeader {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+  top: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  margin-bottom: 0;
+  min-height: 46px;
+  border: none;
+}
+
+@media (min-width: 992px){
+  .siteHeader .container {
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+}
+
+.gMenu_outer nav {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "メイリオ",Meiryo,"Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",Hiragino Sans,"Noto Sans JP",sans-serif;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+body, html {
+  font-size: 14px;
+}
+
+:root {
+  --text-color: #464646;
+  --color-footer-border: rgba(0, 0, 0, 0.15);
+}
